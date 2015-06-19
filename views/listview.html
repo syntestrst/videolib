@@ -1,0 +1,20 @@
+<table class="table table-bordered">
+    <thead>
+
+    </thead>
+    <tbody>
+        <tr ng-repeat="video in videos.items">
+            <td drragnddrop=''>
+                <div id="container-video">
+                    <p>{{video.snippet.title}}<p>
+                    <!--<a href="{{video.player.default}}"><img src="{{video.thumbnail.sqDefault}}"></a>-->
+                    <a href="{{}}"><img src="{{video.snippet.thumbnails.default.url}}"></a>
+                    <!--<p>de : {{video.uploader}}</p>-->
+                   <!-- <p>nombres de vues: {{video.viewCount}}</p>-->
+                </div>
+
+            </td>
+        </tr>
+    </tbody>
+
+</table>
