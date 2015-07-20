@@ -60,6 +60,7 @@ angular.module('ytblib', ['ui.router','ngDragDrop','ui.bootstrap','ytbe.controll
                 }
             })
 
+
         $urlRouterProvider.otherwise('/login');
 
 

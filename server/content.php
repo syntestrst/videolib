@@ -5,6 +5,7 @@
  * Date: 16/04/2015
  * Time: 10:23
  */
+
 session_start();
 // test variable session of user
 $isUser = isset($_SESSION["user"]) && !empty($_SESSION['user']);

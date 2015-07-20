@@ -141,6 +141,7 @@ angular.module('ytbe.controllers',[]).controller('LoginCtrl',['$scope','$http','
         });
         $state.go('slogin');
     }
+
 }]).controller('OverviewCtrl',['$scope', function($scope) {
     $scope.list1 = {title: 'AngularJS - Drag Me'};
     $scope.list2 = {};
